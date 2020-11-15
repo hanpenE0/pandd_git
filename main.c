@@ -9,13 +9,13 @@ int main() {
 		if(c == '+'){
 			printf("%d\n", a + b);
 		}
-		if(c == '-') {
+		else if(c == '-') {
 			printf("%d\n",a - b);
 		}
-		if(c == '*') {
+		else if(c == '*') {
 			printf("%d\n", a * b);
 		}
-		if(c == '/'){
+		else if(c == '/'){
 			printf("%d\n",a/b);
 		}
 	}
